@@ -11,7 +11,7 @@ public class PreviewTextFile extends JFrame {
     public PreviewTextFile() {
         setTitle("Vista Previa de Archivo de Texto");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(1280, 720);
+        setSize(720, 720);
 
         textArea = new JTextArea();
         JButton captureButton = new JButton("Capturar y Mostrar Vista Previa");
